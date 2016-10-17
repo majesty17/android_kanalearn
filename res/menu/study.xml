@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.majesty.kana.StudyActivity" >
+
+    <item
+        android:id="@+id/menu_study_qingyin"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="清音"/>
+    <item
+        android:id="@+id/menu_study_zhuoyin"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="浊音/半浊音"/>
+    <item
+        android:id="@+id/menu_study_aoyin"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="拗音"/>
+
+</menu>

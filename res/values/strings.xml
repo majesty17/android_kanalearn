@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">假名学习助手  v1.0 - by Majesty</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_study">假名学习</string>
+    <string name="title_activity_test">假名测验</string>
+    <string name="mode_help">游戏模式说明:\n
+        1,计次模式:固定题目个数的游戏模式\n
+        2,计时模式:固定时间的游戏模式\n
+        3,无限模式:一直可以玩下去，出错了会重新计分\n
+        4,死亡模式:允许5次出错，第6次出错则退出</string>
+    <string name="title_activity_game">测验正文</string>
+    <string name="title_activity_record">排行榜</string>
+    <string name="title_activity_config">配置</string>
+
+</resources>

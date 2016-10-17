@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.majesty.kana.StudyActivity" >
+
+    <GridView
+        android:id="@+id/gv_qingyin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="1dp"
+        android:listSelector="@null"
+        android:numColumns="5"
+        android:verticalSpacing="1dp" >
+    </GridView>
+
+    <GridView
+        android:id="@+id/gv_zhuoyin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="1dp"
+        android:listSelector="@null"
+        android:numColumns="5"
+        android:verticalSpacing="1dp" >
+    </GridView>
+
+    <GridView
+        android:id="@+id/gv_aoyin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="1dp"
+        android:listSelector="@null"
+        android:numColumns="3"
+        android:verticalSpacing="1dp" >
+    </GridView>
+
+</LinearLayout>
